@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/logo1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tvTipoNumero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo y Numero: "
+                style="@style/TextAppearance.AppCompat.Title"/>
+            <TextView
+                android:id="@+id/tvPropietario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Propietario: "
+                style="@style/TextAppearance.AppCompat.Title" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
